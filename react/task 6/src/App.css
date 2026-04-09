@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* Center everything */
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Time display */
+.time {
+  font-size: 40px;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Button container */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Common button styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Individual buttons */
+.start {
+  background-color: green;
+  color: white;
+}
+
+.stop {
+  background-color: red;
+  color: white;
+}
+
+.reset {
+  background-color: orange;
+  color: white;
+}
+
+/* Hover effect */
+button:hover {
+  opacity: 0.8;
+}
