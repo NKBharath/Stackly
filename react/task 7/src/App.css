@@ -1,0 +1,68 @@
+.profile-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #6c63ff;
+  margin-bottom: 20px;
+}
+
+.upload-btn,
+.confirm-btn,
+.cancel-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.upload-btn {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.upload-btn:hover {
+  background-color: #574fd6;
+}
+
+.confirm-btn {
+  background-color: #22c55e;
+  color: white;
+}
+
+.confirm-btn:hover {
+  background-color: #16a34a;
+}
+
+.cancel-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #dc2626;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
