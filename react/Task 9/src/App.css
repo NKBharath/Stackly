@@ -1,0 +1,64 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+/* Split container */
+.container {
+  display: flex;
+  width: 700px;
+  gap: 20px;
+}
+
+/* Left: Form */
+.form-container {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+}
+
+/* Right: Preview */
+.preview {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  color: black;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.app.dark .form-container,
+.app.dark .preview {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* Inputs */
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* Button */
+.theme-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #8b5cf6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
