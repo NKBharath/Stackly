@@ -1,0 +1,19 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.box {
+  border: 2px solid #8b5cf6;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.final {
+  background: #8b5cf6;
+  color: white;
+}
