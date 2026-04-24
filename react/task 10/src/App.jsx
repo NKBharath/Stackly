@@ -8,7 +8,7 @@ import Profile from "./pages/Profile";
 import Services from "./pages/Services";
 import WebDev from "./pages/services/WebDev";
 import AppDev from "./pages/services/AppDev";
-import UIUX from "./pages/services/UX";
+import UIUX from "./pages/services/Ucd X";
 
 function App() {
   return (
