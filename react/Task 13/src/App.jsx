@@ -11,8 +11,8 @@ function App() {
         setUsers(res.data))
       .catch((err) => 
         console.error(err));
+      console.log(users);
   }, []);
-  console.log(users);
   const handleNext = () => {
     if (index < users.length - 1) {
       setIndex(index + 1);
